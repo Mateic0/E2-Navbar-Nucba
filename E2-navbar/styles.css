@@ -1,9 +1,14 @@
-body {
+*{
+    margin: 2;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
     background: rgb(247, 244, 244);
     font-family: 'calibri';
 }
 
-header {
+header{
     background: #ffffff;
     width: 100%;
     clear: both;
@@ -12,24 +17,24 @@ header {
     box-shadow: 2px 2px 5px rgb(255, 0, 0);
 }
 
-.menu {
+.menu{
     width: 900px;
     margin: 0 auto;
 }
 
-img {
-    width: 120px;
-    height: 50px;
+img{
+    width: 110px;
+    height: 65px;
     float: left;
     padding: 8px;
 }
 
-nav {
+nav{
     float: right;
 
 }
 
-nav ul li {
+nav ul li{
     list-style: none;
     margin-left: 75px;
     padding: 12px 0;
@@ -37,7 +42,7 @@ nav ul li {
     position: relative;
 }
 
-nav ul li a {
+nav ul li a{
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -45,7 +50,7 @@ nav ul li a {
 }
 
 
-nav ul li a::before {
+nav ul li a::before{
     display: block;
     content: '';
     width: 0%;
@@ -57,7 +62,7 @@ nav ul li a::before {
 
 }
 
-nav ul li a:hover::before {
+nav ul li a:hover::before{
     width: 100%;
 
 }
