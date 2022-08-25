@@ -17,7 +17,7 @@ header {
     padding: 0px 30px 0px 30px;
     position: fixed;
     top: 0;
-    box-shadow: 2px 2px 5px rgb(13, 12, 12);
+
 
 }
 
@@ -27,7 +27,7 @@ img {
 }
 
 body {
-    background-color: rgb(59, 118, 118);
+    background-color: rgb(255, 255, 255);
 }
 
 .navbar,
@@ -35,9 +35,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'calibri';
-    font-weight: 600;
+    font-family: Arial, 'Helvetica', sans-serif
 }
+
 
 .navbar {
     gap: 160px;
@@ -47,14 +47,152 @@ body {
     gap: 40px;
 }
 
-a {
-    color: black;
+.menu-lista li:first-child>a {
+    color: rgb(2, 151, 210);
+    font-weight: 600;
+}
+
+.menu-lista a {
+    color: rgb(13, 12, 12)
+}
+
+a:hover {
+    color: rgb(2, 151, 210);
+
 }
 
 .logo-tw {
     cursor: pointer;
 }
 
-:hover {
-    color: rgb(15, 114, 207);
+main {
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(235, 240, 243);
+}
+
+#hero {
+    margin-top: 85px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.links-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hero-info h1 {
+    font-size: 48px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    color: rgb(46, 164, 238);
+}
+
+.hero-info h2 {
+    font-size: 30px;
+    width: 70%;
+    min-width: 500px;
+    font-weight: 600;
+    color: white;
+}
+
+
+.hero-info a {
+    color: white;
+    background: linear-gradient(to right, #00d2ff, #928dab);
+    width: 120px;
+    padding: 8px 0;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.hero-card {
+    width: 430px;
+    background: linear-gradient(to right, #16222a, #3a6073);
+    padding: 15px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+
+.hero-card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.hero-card-top {
+    align-items: center;
+}
+
+.hero-card img {
+    width: 400px;
+    height: 365px;
+    border-radius: 30px;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+
+.text-info {
+    margin: 80px;
+    padding: 30px;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 40px;
+
+}
+
+.text-info p {
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.links-info2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.links-info2 a {
+    color: white;
+    background: linear-gradient(to right, #00d2ff, #928dab);
+    width: 120px;
+    padding: 8px 0;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    
 }
